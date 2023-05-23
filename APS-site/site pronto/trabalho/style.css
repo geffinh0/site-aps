@@ -1,0 +1,116 @@
+/* Limpar formatações padrão */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e6e6e6;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #8ab96d;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+#header {
+  background: #8ab96d;
+  padding: 15px;
+  text-align: center;
+}
+#logo,
+#menu {
+  padding: 10px;
+}
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+.white {
+  color: white;
+}
+/* Formatação do menu */
+#header a:link,
+#header a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+#header a:hover {
+  background: white;
+  color: #8ab96d;
+  text-decoration: none;x
+}
+
+/* Área principal */
+#main {
+  width: 920px;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+/* Postagens */
+#postblog {
+
+text-align: justify;
+}
+#boasvindas {
+
+  text-align: center;
+  font-size: 20px;
+}
+
+#postagens {
+  width: 660px;
+  float: left;
+}
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+h2 {
+  color: #8ab96d;
+}
+.post-date {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Barra lateral */
+#aside {
+  width: 240px;
+  float: right;
+}
+.aside-content {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.aside-content h3 {
+  background-color: #CCC;
+  padding: 5px;
+  color: #565656;
+}
+.post-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+#footer {
+  background: #ccc;
+  padding: 15px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+}
